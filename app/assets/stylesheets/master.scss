@@ -32,3 +32,22 @@ body {
     font-family: 'cantarellregular', sans-serif;
     font-size:26px;
 }
+
+.pagination {
+    font-family: 'rubikregular';
+    font-size:26px;
+    border: 1px solid #ccc;
+    border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+    padding: 20px;
+  .disabled {
+    display: none;
+  }
+  .previous_page {
+    font-family: 'cantarelloblique', sans-serif;
+    font-size:26px;
+  }
+  .next_page {
+    font-family: 'cantarelloblique', sans-serif;
+    font-size:26px;
+  }
+}
