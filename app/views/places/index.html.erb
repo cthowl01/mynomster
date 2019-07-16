@@ -1,5 +1,11 @@
 
 
+<% if @places.first.photos %>
+  <div class="col-12 col-sm-6">
+    <%= image_tag @places.first.photos.first.picture.url, class: 'img-fluid' %>
+  </div>
+<% end %>
+
 <%= will_paginate @places, previous_label: h("<"), next_label: h(">") %>
 
 <% @places.each do |place| %>
